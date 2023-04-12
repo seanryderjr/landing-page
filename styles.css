@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+body {
+    font-family: 'Righteous', cursive;
+    margin-top: 150px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 231, 220, .3);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+    border-radius: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 400px;
+    text-align: center;
+    flex-wrap: nowrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+    
+    
+}
+
+.time {
+    
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    opacity: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+  
+    
+    
+    
+}
+
+.weather, img, .location {
+    margin: 0 auto;
+  
+   
+   
+    
+    
+   
+    
+}
+
+.weather {
+    
+    font-size: 40px;
+    
+   
+    
+    
+}
+
+img {
+    
+    width: 200px;
+    display: block;
+    
+
+    
+}
+
+.location {
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+}
