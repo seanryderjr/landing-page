@@ -81,4 +81,16 @@ function getWeather() {
 getWeather();
 setInterval(updateTime, 1000);
 
-// Replace YOUR_API_KEY with your actual API key from Newscatcher
+//NOTEPAD
+
+const textarea = document.getElementById('textarea');
+const savedNotes = localStorage.getItem('notes');
+
+if (savedNotes) {
+    textarea.value = savedNotes;
+}
+
+textarea.addEventListener('input', () => {
+    localStorage.setItem('notes', textarea.value);
+});
+
